@@ -1,0 +1,70 @@
+.App {
+    text-align: center;
+}
+
+body {
+    background-color: #FFCC00;
+    padding: 60px;
+    margin: 2px;
+}
+
+h1,
+h2,
+ul,
+li {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+ul.header {
+    background-color: #111;
+    padding: 0;
+    text-align: center;
+}
+
+ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.Registry {
+    text-align: center;
+}
+
+.content {
+    background-color: #FFF;
+    padding-right: 450px;
+    padding-left: 450px;
+}
+
+.content h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.active {
+    background-color: #0099FF;
+    text-align: center;
+}
