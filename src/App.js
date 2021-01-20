@@ -9,7 +9,7 @@ import Home from "./Home"
 import Stuff from './Stuff';
 import Contact from './Contact';
 import Registration from './Registration';
-
+import Galorie from './Galorie';
 class App extends Component {
   render() {
   return (
@@ -21,13 +21,17 @@ class App extends Component {
       <li><NavLink to={'./Stuff'}>Stuff</NavLink></li>
       <li><NavLink to="./Contact">Contact</NavLink></li>
       <li><NavLink to="./Registration">Registration</NavLink></li>
+      <li><NavLink to="./Galorie">Galorie</NavLink></li>
+
 
       </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/Stuff" component={Stuff}/>
             <Route path="/Contact" component={Contact} />
-            <Route path="/Registration" component={Registration}/>
+           <Route path="/Registration" component={Registration} />
+           <Route path="/Galorie" component={Galorie}/>
+
           </div>
       </div>
       </HashRouter>
